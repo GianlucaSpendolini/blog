@@ -1,5 +1,6 @@
 ---
 title: Benvenuto nel mio blog
+subtitle: Prova per vedere dove lo inserisce
 ---
 
 Questo blog lo userò per allenarmi principalmente con il linguaggio MarkDown e con YAML (usato per Jekill), inserendo delle mie esperienze nel mondo del coding e dell'informatica in generale.
