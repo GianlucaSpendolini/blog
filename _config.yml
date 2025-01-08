@@ -26,9 +26,9 @@ description: >
 # theme: minima
 remote_theme: jekyll/minima # Per utilizzare l'ultima
 
-header_pages:
-  - "https://GianlucaSpendolini.github.io"
-  - "./../"
+# Se ho delle pagine da inserire nell'header che facciano riferimento ad altre cose mie
+# header_pages:
+#   - 
 
 # Settings per Minima
 minima:
