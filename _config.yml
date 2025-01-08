@@ -1,7 +1,14 @@
 #####################################################################
 # Questa è la pagina di configurazione per le impostazioni generali #
 # I riferimenti per questa pagina sono presi dal seguente link:     #
+#                                                                   #
 #     https://github.com/jekyll/minima/blob/master/_config.yml      #
+#####################################################################
+# Per altri riferimenti:                                            #
+# - quick start -> https://jekyllrb.com/docs/                       #
+# - command line -> https://jekyllrb.com/docs/usage/                #
+# - structure -> https://jekyllrb.com/docs/structure/               #
+# - themes -> https://jekyllrb.com/docs/themes/                     #
 #####################################################################
 
 title: Skills GitHub Pages
@@ -20,7 +27,8 @@ description: >
 remote_theme: jekyll/minima # Per utilizzare l'ultima
 
 header_pages:
-  - about.md
+  - "https://GianlucaSpendolini.github.io"
+  - "./../"
 
 # Settings per Minima
 minima:
