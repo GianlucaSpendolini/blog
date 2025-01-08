@@ -11,7 +11,9 @@
 # - themes -> https://jekyllrb.com/docs/themes/                     #
 #####################################################################
 
-title: InternEarth Explorer
+# Titolo (compresi quelli vecchi)
+# title: InternEarth Explorer
+title: Intern-Earth Explorer
 
 author: 
   name: Gianluca Spendolini
