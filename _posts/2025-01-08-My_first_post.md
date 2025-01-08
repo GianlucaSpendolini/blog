@@ -1,5 +1,5 @@
 ---
-title: "Il mio primo post"
+title: "Cosa portare nel blog"
 date: 2025-01-08
 ---
 
@@ -10,3 +10,7 @@ Questo blog è stato creato grazie al [tutorial](https://github.com/skills/githu
 In futuro magari inizierò a fare post in inglese per allenarmi, però devo ancora capire cosa portare (se volessi andare avanti con questo progetto).
 
 Magari posso portare i miei progressi nel mondo dello sviluppo, in modo da ricordarmi anche quando imparo qualcosa di nuovo e di importante (quindi non porterei quando imparo dei comandi ma quando seguo tutorial e corsi per imparare nuove cose).
+
+---
+
+Alla fine ho deciso: racconterò la mia esperienza nel mondo del coding :)
