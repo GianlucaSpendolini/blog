@@ -14,3 +14,13 @@ Magari posso portare i miei progressi nel mondo dello sviluppo, in modo da ricor
 ---
 
 Alla fine ho deciso: racconterò la mia esperienza nel mondo del coding :)
+
+---
+
+### 10/01/2025 - 18:28 (Italia)
+
+Piccola correzione: non solo nel mondo del coding, ma in quello della tecnologia (specialmente in ambito informatico).
+
+Probabilmente correggerò, se ci sono modifiche da fare, come ho fatto ora:
+- Scrivo "\-\-\-";
+- Sotto riporto la modifica (non per forza sono correzioni ma anche aggiunte).
