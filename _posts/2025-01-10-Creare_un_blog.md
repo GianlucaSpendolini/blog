@@ -33,7 +33,7 @@ Prima di creare il blog, è meglio pensare a come pubblicarlo, quindi quale serv
     - &Eacute; possibile utilizzare servizi offerti gratuiti;
     - Se si usa il blog in modo serio, è consigliato acquistare uno spazio hosting, ottenendo così un link URL (come _https://'nome'.'dominio'_)
         - Nome
-            - Breve/semplice -> facile da ricordare
+            - Breve/semplice -> facile da ricordare;
         - Dominio
             - Ci sono molti tipi di dominio ed ognuno ha una importanza diversa
                 - Spesso si scelgono in base al pubblico di riferimento (come _.it_ per il pubblico italiano o _.com_ se voglio un blog generalista o scritto in lingua inglese);
@@ -45,7 +45,7 @@ Successivamente, scegliere bene le seguenti caratteristiche, in modo da personal
 - Struttura
 - Pubblicazioni
 
-Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime ricerche? Per questo entrano in gioco le *Search Engine Optimization*, ovvero _attività di ottimizzazione di un sito web per migliorare la sua posizione sui motori di ricerca_, garantendo quindi una migliore visibilità. Ci sono molti modi e, se si vuole cercare in una fonte attendibile, posso suggerire gli stessi siti suggeriti da Salvatore Aranzulla, da cui ho preso tutte le informazioni di questo post:
+Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime ricerche? Per questo entrano in gioco le _*Search Engine Optimization*_, ovvero _attività di ottimizzazione di un sito web per migliorare la sua posizione sui motori di ricerca_, garantendo quindi una migliore visibilità. Ci sono molti modi e, se si vuole cercare in una fonte attendibile, posso suggerire gli stessi siti suggeriti da Salvatore Aranzulla, da cui ho preso tutte le informazioni di questo post:
 - [Introduzione al SEO](https://developers.google.com/search/docs/beginner/seo-starter-guide);
 - [Guida per essere un web master](https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines).
 
@@ -72,7 +72,7 @@ Ottimizzare i post -> maggiore fruibilità
     - Struttura coerente;
 - Formattare correttamente il testo;
 - Collegare delle parole chiave a dei link che riportano ad altri post del blog;
-- *_Scrivere per il pubblico e non per il motore di ricerca_*.
+- _*Scrivere per il pubblico e non per il motore di ricerca*_.
 
 
 ## Fonti
