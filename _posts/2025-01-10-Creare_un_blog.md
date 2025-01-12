@@ -9,11 +9,20 @@ Premetto che non ho intenzione di fare una ricerca approfondita su come fare ogn
 
 Questo post lo suddivido riportando:
 - [Cos'è un blog personale](#descrizione);
+- [Cosa deve avere un blog](#struttura);
 - [Consigli](#consigli);
-- [Fonti](#fonti);
+- [Fonti](#fonti).
 
 
 ## Descrizione
+
+Un blog personale lo si può creare con il fine di raccontare una passione o un argomento di proprio interesse, con aggiunte di riflessioni e opinioni (rendendolo a tutti gli effetti un diario online), oppure per altri, tra cui:
+- Intrattenimento personale;
+- Scrittura creativa;
+- Brand personale o al guadagno con pubblicità e affiliazioni.
+
+
+## Struttura
 
 Prima di creare il blog, è meglio pensare a come pubblicarlo, quindi quale servizio di hosting utilizzare e quale CMS usare:
 - Content Management System (CMS)
