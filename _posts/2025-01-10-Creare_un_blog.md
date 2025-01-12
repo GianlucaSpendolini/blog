@@ -8,11 +8,12 @@ Siccome non ho esperienze pregresse su come fare blog e non seguo persone a cui 
 Premetto che non ho intenzione di fare una ricerca approfondita su come fare ogni tipo di blog, ma mi sono concentrato sul capire come fare un blog personale (anche se alla fine non c'era molto da sapere...ma vabbè).
 
 Questo post lo suddivido riportando:
-- [Cos'è un blog personale](#descrizione)
-- [Consigli](#consigli)
-- [Fonti](#fonti)
+- [Cos'è un blog personale](#descrizione);
+- [Consigli](#consigli);
+- [Fonti](#fonti);
 
-### Descrizione
+
+## Descrizione
 
 Prima di creare il blog, è meglio pensare a come pubblicarlo, quindi quale servizio di hosting utilizzare e quale CMS usare:
 - Content Management System (CMS)
@@ -21,7 +22,7 @@ Prima di creare il blog, è meglio pensare a come pubblicarlo, quindi quale serv
     - Io utilizzo [Jekyll](https://jekyllrb.com/), perchè avevo già creato un mio sito utilizzando [GitHub Pages](https://pages.github.com/);
 - Hosting
     - &Eacute; possibile utilizzare servizi offerti gratuiti;
-    - Se si usa il blog in modo serio, è consigliato acquistare uno spazio hosting: si otterrà _https://'nome'.'dominio'_
+    - Se si usa il blog in modo serio, è consigliato acquistare uno spazio hosting, ottenendo così un link URL (come _https://'nome'.'dominio'_)
         - Nome
             - Breve/semplice -> facile da ricordare
         - Dominio
@@ -42,7 +43,7 @@ Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime
 In questo post non approfondirò l'argomento del SEO perchè è meglio lasciarlo ad un altro [post](#).
 
 
-### Consigli
+## Consigli
 
 Prima di tutto, è meglio scegliere contenuti interessanti, utili, curati o che comunicano qualcosa.
 
@@ -65,7 +66,7 @@ Ottimizzare i post -> maggiore fruibilità
 - *_Scrivere per il pubblico e non per il motore di ricerca_*.
 
 
-### Fonti
+## Fonti
 
 Salvatore Aranzulla
 - [Cos'è](https://www.aranzulla.it/cose-un-blog-987540.html)
