@@ -88,35 +88,35 @@ Un progetto Jekyll solitamente è strutturato come segue:
 - [index.html (can also be an 'index.md' with valid front matter)](#index)
 
 ##### Config
-- utilizzato per configurare le impostazioni generiche
-- posso specificare
-    - titolo
+- Utilizzato per configurare le impostazioni generiche
+- Posso specificare
+    - Titolo
       
             title: 'titolo'
       
-    - chi è l'autore del post
+    - Chi è l'autore del post
       
           author:
               name: 'nome'
               email: 'email'
       
-    - una descrizione
+    - Una descrizione
         
           description: >
               ...
       
-    - il tema
-        - per Minima
+    - Il tema
+        - Per Minima
           
               theme: minima
               remote_theme: jekyll/minima # Se voglio ultima versione
           
-    - quali pagine inserire nell'header (nav-bar)
+    - Quali pagine inserire nell'header (nav-bar)
       
           header_pages:
               - ...
       
-    - settaggi per Minima
+    - Settaggi per Minima
       
           minima: 
           
@@ -152,4 +152,4 @@ Un progetto Jekyll solitamente è strutturato come segue:
                   - { platform: youtube,        user_url: "<URL>" }
 
 ##### Index
-- contiene il contenuto della home page (il main)
+- Contiene il contenuto della home page (il main)
