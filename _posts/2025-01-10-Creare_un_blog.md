@@ -7,11 +7,11 @@ Siccome non ho esperienze pregresse su come fare blog e non seguo persone a cui 
 
 Premetto che non ho intenzione di fare una ricerca approfondita su come fare ogni tipo di blog, ma mi sono concentrato sul capire come fare un blog personale (anche se alla fine non c'era molto da sapere...ma vabbè).
 
-Questo post lo suddivido riportando:
-- [Cos'è un blog personale](#descrizione);
-- [Cosa deve avere un blog](#struttura);
-- [Consigli](#consigli);
-- [Fonti](#fonti).
+Questo post lo suddivido nel seguente modo:
+- [Cos'è un blog personale](#descrizione)
+- [Cosa deve avere un blog](#struttura)
+- [Consigli](#consigli)
+- [Fonti](#fonti)
 
 
 ## Descrizione
