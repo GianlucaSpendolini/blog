@@ -3,7 +3,7 @@ title: Google Search e le SEO
 date: 2025-01-13
 ---
 
-Come detto nel [precedente post](https://GianlucaSpendolini.github.io/2025/01/10/Creare_un_blog.md), un sito deve essere indicizzato per poter essere visualizzato nei risultati di un motore di ricerca.
+Come detto nel [precedente post](https://GianlucaSpendolini.github.io/blog/2025/01/10/Creare_un_blog.md), un sito deve essere indicizzato per poter essere visualizzato nei risultati di un motore di ricerca.
 
 In questo post, introdurrò la ricerca di Google ed i vari processi che sono alla base, successivamente parlerò dell'argomento principale:
 - [La ricerca di Google](#google-search)
