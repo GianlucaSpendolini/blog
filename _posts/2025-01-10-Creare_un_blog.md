@@ -49,7 +49,7 @@ Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime
 - [Introduzione al SEO](https://developers.google.com/search/docs/beginner/seo-starter-guide);
 - [Guida per essere un web master](https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines).
 
-Non approfondirò ulteriormente l'argomento del SEO perchè è meglio lasciarlo ad un futuro [post](https://gianlucaspendolini.github.io/blog/2025/01/13/Google_Search_e_SEO.html).
+Non approfondirò ulteriormente l'argomento del SEO perchè è meglio lasciarlo ad un futuro [post](https://gianlucaspendolini.github.io/blog/2025/01/13/Google_Search_e_SEO.html#search-engine-optimization).
 
 
 ## Consigli
