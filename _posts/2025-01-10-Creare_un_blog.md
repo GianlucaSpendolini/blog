@@ -45,11 +45,11 @@ Successivamente, scegliere bene le seguenti caratteristiche, in modo da personal
 - Struttura
 - Pubblicazioni
 
-Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime ricerche? Per questo entrano in gioco le _*Search Engine Optimization*_, ovvero _attività di ottimizzazione di un sito web per migliorare la sua posizione sui motori di ricerca_, garantendo quindi una migliore visibilità. Ci sono molti modi e, se si vuole cercare in una fonte attendibile, posso suggerire gli stessi siti suggeriti da Salvatore Aranzulla, da cui ho preso tutte le informazioni di questo post:
+Infine, come si fa a far risaltare il nostro blog (come per i siti) tra le prime ricerche? Per questo entrano in gioco le *Search Engine Optimization*, ovvero _attività di ottimizzazione di un sito web per migliorare la sua posizione sui motori di ricerca_, garantendo quindi una migliore visibilità. Ci sono molti modi e, se si vuole cercare in una fonte attendibile, posso suggerire gli stessi siti suggeriti da Salvatore Aranzulla, da cui ho preso tutte le informazioni di questo post:
 - [Introduzione al SEO](https://developers.google.com/search/docs/beginner/seo-starter-guide);
 - [Guida per essere un web master](https://developers.google.com/search/docs/advanced/guidelines/webmaster-guidelines).
 
-In questo post non approfondirò l'argomento del SEO perchè è meglio lasciarlo ad un altro [post](#).
+Non approfondirò ulteriormente l'argomento del SEO perchè è meglio lasciarlo ad un futuro [post](https://gianlucaspendolini.github.io/blog/2025/01/13/Google_Search_e_SEO.html).
 
 
 ## Consigli
