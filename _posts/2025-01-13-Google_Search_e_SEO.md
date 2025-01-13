@@ -116,6 +116,77 @@ Fasi
 
 ## Search Engine Optimization
 
+La SEO serve ad aiutare i motori di ricerca a comprendere i tuoi contenuti, nonché aiutare gli utenti a trovare il tuo sito e decidere se visitarlo tramite un motore di ricerca.
+
+Non è garantito che un determinato sito venga aggiunto all'indice di Google, ma hanno maggiori probabilità di comparire nei risultati di ricerca di Google.
+
+La SEO riguarda il passo successivo: impegnarsi per migliorare la presenza del tuo sito nella Ricerca
+- Se vengono seguite le best practice, magari sarà più facile per i motori di ricerca (non solo Google) eseguire la scansione, indicizzare e comprendere i tuoi contenuti.
+
+Di seguito riporterò:
+- [Tempistiche per vedere gli effetti](#tempistiche-per-i-risultati)
+- [Aiutare Google nella ricerca](#aiutare-google-nella-ricerca)
+- [Organizzazione del sito](#organizzare-il-sito)
+
+
+### Tempistiche per i risultati
+
+Non è immediato. Le modifiche sono di diversi tipi e richiedono diverso tempo. Si possono aspettare un paio di settimane e, se non si vedono effetti, è possibile ripetere le modifiche.
+
+
+### Aiutare Google nella ricerca
+
+Prima di tutto, controlla se Google ha già trovato i contenuti, così da non fare altro se non qualche piccola modifica per aumentarne il ranking. Inizia usando l'operatore "site" nella barra di ricerca come segue:
+
+    site:<URL>
+
+Se sono nell'indice di Google, vedrai i risultati nella pagina di ricerca, altrimenti puoi controllare i [requisiti tecnici](https://developers.google.com/search/docs/essentials/technical) per constatare che sia altro.
+
+Se non è nemmeno un problema tecnico, è meglio adottare qualche piccola modifica. Google spesso trova le pagine tramite link da pagine di cui ha già eseguito la scansione. Infatti è molto comodo avere pagine che
+rimandano al tuo sito e, per farlo, puoi promuovere il sito, invitando le persone a [scoprire i contenuti che porti](https://developers.google.com/search/docs/fundamentals/seo-starter-guide#promoting).
+Un altro modo è inviare una [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview), ovvero un file contenente tutti gli URL del sito importanti. E' possibile che alcuni CMS lo 
+facciano già, però è sempre meglio far conoscere il proprio sito. 
+
+Di seguito:
+- [Verificare se Google può vedere una pagina come la vede l'utente](#vedere-la-pagina-come-l-utente)
+- [Se non si vuole che una pagina venga visualizzata nei risultati di ricerca](#se-non-si-vuole-far-comparire-una-pagina-nei-risultati)
+
+#### Vedere la pagina come l'utente
+- In una scansione dovrebbe vedere la pagina come la vedrebbe l'utente -> meglio se fosse in grado di accedere alle stesse risorse del browser dell'utente
+    - Se il sito nasconde componenti importanti (come CSS e JavaScript) -> potrebbe non riuscire a comprendere le pagine -> non mostrate/pessimo ranking
+- Se le pagine contengono informazioni diverse a seconda dell'ubicazione dell'utente -> meglio assicurarsi che siano soddisfatte le informazioni che vede Google dal suo crawler (Stati Uniti)
+    - E' possibile usare uno [strumento](https://support.google.com/webmasters/answer/9012289) per verificare come Google vede la pagina
+
+#### Se non si vuole far comparire una pagina nei risultati
+- E' possibile farlo attraverso [diversi modi](https://developers.google.com/search/docs/crawling-indexing/control-what-you-share#how-to-block-content)
+
+
+### Organizzare il sito
+
+Se il sito è organizzato in modo logico, è utile per gli utenti e i motori di ricerca a comprendere la correlazione tra le pagine ed il resto del sito.
+- Consigli utili a lungo termine
+- Se non lo è -> i motori di ricerca comprenderanno le pagine (indipendentemente da com'è organizzato)
+
+Di seguito:
+- [URL descrittivi](#url-descrittivi)
+- [Raggruppare le pagine nelle directory](#raggruppare-le-pagine-nelle-directory)
+
+#### URL descrittivi
+![Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb](https://developers.google.com/static/search/docs/images/text-result.png)
+- Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigia)
+    - Gli utenti possano utilizzare anche gli URL per capire se un risultato sarà utile per loro
+- Google viene a conoscenza automaticamente dei breadcrumb in base alle parole nell'URL
+    - Puoi anche influenzarli con i dati strutturati se hai le competenze tecniche necessarie
+    - Si può provare a includere nell'URL parole che potrebbero essere utili per gli utenti
+
+#### Raggruppare le pagine nelle directory
+![Illustrazione di come raggruppare le pagine nelle directory](https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png)
+- Il modo in cui organizzi i contenuti potrebbe influire su come Google esegue la scansione e l'indicizzazione del sito
+    - L'uso di directory (o cartelle) per raggruppare argomenti simili può aiutare Google a capire la frequenza con cui cambiano gli URL nelle singole directory
+- Google può apprendere queste informazioni ed eseguire la scansione delle varie directory a frequenze diverse
+    - [Strutture](https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure) dei siti ottimizzate per la ricerca
+    - Avere un'efficace struttura degli URL ha un'importanza
+
 ...
 
 
