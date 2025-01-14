@@ -127,6 +127,7 @@ Di seguito riporterò:
 - [Tempistiche per vedere gli effetti](#tempistiche-per-i-risultati)
 - [Aiutare Google nella ricerca](#aiutare-google-nella-ricerca)
 - [Organizzazione del sito](#organizzare-il-sito)
+- [Creare un sito utile ed interessante](#creare-un-sito-utile-ed-interessante)
 
 
 ### Tempistiche per i risultati
@@ -170,6 +171,7 @@ Se il sito è organizzato in modo logico, è utile per gli utenti e i motori di 
 Di seguito:
 - [URL descrittivi](#url-descrittivi)
 - [Raggruppare le pagine nelle directory](#raggruppare-le-pagine-nelle-directory)
+- [Ridurre i contenuti duplicati](#ridurre-i-contenuti-duplicati)
 
 #### URL descrittivi
 ![Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb](https://developers.google.com/static/search/docs/images/text-result.png)
@@ -186,6 +188,17 @@ Di seguito:
 - Google può apprendere queste informazioni ed eseguire la scansione delle varie directory a frequenze diverse
     - [Strutture](https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure) dei siti ottimizzate per la ricerca
     - Avere un'efficace struttura degli URL ha un'importanza
+
+#### Ridurre i contenuti duplicati
+- Evitare di fare come molti siti che mostrano gli stessi contenuti ma con URL diversi poichè i motori di ricerca sceglieranno solo quello canonico da registrare
+    - Per questo, è meglio verificare se è possibile [specificare una versione canonica](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) (al posto di far sprecare risorse di scansione su URL che non interessano)
+- Per lavorare alla canonicalizzazione, assicurati che ogni contenuto sia accessibile tramite 1 solo URL (altrimenti può crearsi confusione)
+    - Se si hanno più pagine con le stesse informaizoni -> reindirizzamento ad un URL che rappresenti al meglio le informazioni 
+    - Se non è possibile fare il reindirizzamento -> si può usare l'elemento link con la proprietà rel="canonical"
+
+            <link rel="canonical" />
+
+### Creare un sito utile ed interessante
 
 ...
 
