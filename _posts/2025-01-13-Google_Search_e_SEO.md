@@ -394,4 +394,7 @@ Google
     - [Guida introduttiva all'ottimizzazione per i motori di ricerca](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 
 Salvatore Aranzulla
-- ...
+- [Come funziona](https://www.aranzulla.it/seo-come-funziona-1290285.html)
+- [Indicizzare un sito](https://www.aranzulla.it/come-indicizzare-un-sito-27237.html)
+- [Essere i primi su Google](https://www.aranzulla.it/come-essere-primi-su-google-1092179.html)
+- [Link Building](https://www.aranzulla.it/come-fare-link-building-1266246.html)
