@@ -8,3 +8,5 @@ Mostrerò tutto quello che imparo e che faccio (soprattutto ciò che mi viene in
 Che questo blog possa essere d'ispirazione per qualcuno che ha bisogno di idee per uscire dalla monotonia? 
 
 Inoltre userò questo blog per allenarmi principalmente con MarkDown e YAML, siccome GitHub Pages fa da host per Jekyll.
+
+PS: prima di pubblicare i post prendendo degli appunti sulla ricerca che faccio, quindi se si trovassero post scritti male o con pezzi tagliati, è perché devo ancora sistemarli.
