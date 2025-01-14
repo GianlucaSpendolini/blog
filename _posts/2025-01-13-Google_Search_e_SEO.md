@@ -180,15 +180,19 @@ Di seguito:
 - [Ridurre i contenuti duplicati](#ridurre-i-contenuti-duplicati)
 
 #### URL descrittivi
-![Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb](https://developers.google.com/static/search/docs/images/text-result.png)
-- Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigia)
+![
+Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb
+](https://developers.google.com/static/search/docs/images/text-result.png)
+- Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigio-chiaro accanto a 'dominio' > ...)
     - Gli utenti possano utilizzare anche gli URL per capire se un risultato sarà utile per loro
 - Google viene a conoscenza automaticamente dei breadcrumb in base alle parole nell'URL
     - Puoi anche influenzarli con i dati strutturati se hai le competenze tecniche necessarie
     - Si può provare a includere nell'URL parole che potrebbero essere utili per gli utenti
 
 #### Raggruppare le pagine nelle directory
-![Illustrazione di come raggruppare le pagine nelle directory](https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png)
+![
+Illustrazione di come raggruppare le pagine nelle directory
+](https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png)
 - Il modo in cui organizzi i contenuti potrebbe influire su come Google esegue la scansione e l'indicizzazione del sito
     - L'uso di directory (o cartelle) per raggruppare argomenti simili può aiutare Google a capire la frequenza con cui cambiano gli URL nelle singole directory
 - Google può apprendere queste informazioni ed eseguire la scansione delle varie directory a frequenze diverse
