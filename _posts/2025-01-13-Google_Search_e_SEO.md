@@ -1,5 +1,5 @@
 ---
-title: Google Search e le SEO
+title: Google Search e la SEO
 date: 2025-01-13
 ---
 
