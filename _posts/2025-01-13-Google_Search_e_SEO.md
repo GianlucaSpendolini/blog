@@ -128,6 +128,12 @@ Di seguito riporterò:
 - [Aiutare Google nella ricerca](#aiutare-google-nella-ricerca)
 - [Organizzazione del sito](#organizzare-il-sito)
 - [Creare un sito utile ed interessante](#creare-un-sito-utile-ed-interessante)
+- [Influenzare l'aspetto del sito](#influenzare-laspetto-del-sito)
+- [Aggiungere immagini ed ottimizzarle](#aggiungere-immagini-ed-ottimizzarle)
+- [Ottimizzazione dei video](#ottimizzazione-dei-video)
+- [Promuovere il sito web](#promuovere-il-sito-web)
+- [Aspetti su cui non soffermarsi](#aspetti-su-cui-non-soffermarsi)
+- [Consigli extra](#consigli)
 
 
 ### Tempistiche per i risultati
@@ -149,7 +155,7 @@ Un altro modo è inviare una [sitemap](https://developers.google.com/search/docs
 facciano già, però è sempre meglio far conoscere il proprio sito. 
 
 Di seguito:
-- [Verificare se Google può vedere una pagina come la vede l'utente](#vedere-la-pagina-come-l-utente)
+- [Verificare se Google può vedere una pagina come la vede l'utente](#vedere-la-pagina-come-lutente)
 - [Se non si vuole che una pagina venga visualizzata nei risultati di ricerca](#se-non-si-vuole-far-comparire-una-pagina-nei-risultati)
 
 #### Vedere la pagina come l'utente
@@ -200,14 +206,188 @@ Di seguito:
 
 ### Creare un sito utile ed interessante
 
-...
+Ovviamente, creare contenuti "interessanti ed utili" varia di persona in persona, ma è molto utile per permettere la presenza del tuo sito nei risultati. Inoltre, i contenuti "interessanti ed utili" hanno delle cose in comune:
+- Il testo è facile da leggere e ben organizzato
+    - Redigere i contenuti in modo naturale e assicurarsi che siano ben scritti
+        - Facili da seguire
+        - Privi di errori ortografici e grammaticali
+    - Suddividere i contenuti lunghi in paragrafi e sezioni
+    - Fornire intestazioni per aiutare gli utenti a navigare le pagine 
+- Crea contenuti unici
+    - Quando si scrivono nuovi contenuti -> non copiare quelli di altri ma scrivili in base a ciò che sai a riguardo (non limitarti a [rimaneggiare contenuti già pubblicati](https://developers.google.com/search/docs/essentials/spam-policies#scraped-content))
+- Aggiorna i contenuti
+    - Controlla e aggiorna in base alle necessità OPPURE elimina se non sono più rilevanti
+- Riporta contenuti [utili, affidabili e pensati per le persone](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+    - Assicurarsi di scrivere contenuti che gli utenti ritengono affidabili (anche riportando le fonti da cui si sono prese le notizie)
+ 
+Di seguito
+- [Pensare ai termini di ricerca usati dai lettori](#pensare-ai-termini-di-ricerca-usati-dai-lettori)
+- [Evitare pubblicità che distraggono](#evitare-pubblicità-che-distraggono)
+- [Inserire link a risorse pertinenti](#inserire-link-a-risorse-pertinenti)
+
+#### Pensare ai termini di ricerca usati dai lettori
+- Ogni utente può utilizzare diversi termini per cercare i contenuti
+    - Utenti esperti potrebbero utilizzare parole chiave diverse rispetto a quelle impiegate dai neofiti
+    - Prevedere queste differenze nei comportamenti di ricerca e scrivere pensando ai lettori potrebbe avere effetti positivi sulle prestazioni del tuo sito nei risultati di ricerca
+- Però se non si prevedono tutti i termini, non bisogna preoccuparsi, poichè i sistemi di corrispondenza delle lingue di Google sono sofisticati e sono in grado di comprendere in che modo la tua pagina è correlata a molte query
+
+#### [Evitare pubblicità che distraggono](https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials)
+- Evitare che distraggano eccessivamente o che impediscano di leggere i contenuti
+
+#### Inserire link a risorse pertinenti
+![
+Illustrazione che mostra la parte di testo di un link
+](https://developers.google.com/static/search/docs/images/what-is-link-text.png)
+- I link sono molto utili per collegare gli utenti e i motori di ricerca ad altre parti del tuo sito o a pagine pertinenti su altri siti
+    - I link possono aggiungere valore anche collegando gli utenti e Google ad un'altra risorsa che conferma ciò di cui scrivi
+- Il testo del link ([anchor text](https://developers.google.com/search/docs/crawling-indexing/links-crawlable#write-good-anchor-text))
+    - Parte testuale di un link che puoi vedere
+        - Comunica informazioni sulla pagina a cui rimanda il link
+    - Utenti e motori di ricerca possono comprendere facilmente cosa contengono le pagine collegate prima di visitarle
+- Inserire il link quando necessario
+    - Possono fornire più contesto su un argomento, sia per gli utenti che per i motori di ricerca
+        - Potrebbe aiutare a dimostrare le tue conoscenze su un argomento
+    - Quando inserisci link a pagine al di fuori del tuo controllo, assicurati che la risorsa a cui indirizza il link sia attendibile
+        - Se non ritieni attendibili i contenuti e vuoi comunque creare un link che vi rimandi, aggiungi un'annotazione "nofollow" o simile al link per evitare l'associazione con quello a cui rimandi
+        - Ciò evita potenziali conseguenze negative sul tuo ranking nella Ricerca Google
+    - Se si accettano contenuti generati dagli utenti, assicurati che in ogni link pubblicato dagli utenti sia presente nofollow o un'annotazione simile 
+        - Aggiunta automaticamente dal tuo CMS
+        - Magari non vuoi che il tuo sito venga associato ciecamente ai siti a cui gli utenti rimandano tramite link
+            - Può anche scoraggiare gli spammer dall'utilizzare il tuo sito web in modo illecito
+
+### Influenzare l'aspetto del sito
+
+Pagina dei risultati è composta da alcuni [elementi visivi](https://developers.google.com/search/docs/appearance/visual-elements-gallery) che si possono influenzare per aiutare gli utenti se visitare il sito.
+
+Di seguito
+- [Influenzare i link dei titoli](#influenzare-i-link-dei-titoli)
+- [Controllare gli snippet](#controllare-gli-snippet)
+
+#### Influenzare i link dei titoli
+- Parte del titolo dei risultati di ricerca 
+    - Aiuta le persone a fare click
+- Ci sono fonti che Google usa per generare il link del titolo tramite le parole dentro ```<title></title>``` ed altre intestazioni della pagina 
+    - Il testo del titolo può essere usato anche per il titolo mostrato nei browser web e nei preferiti
+
+    ![
+    Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla parte del link del titolo
+    ](https://developers.google.com/static/search/docs/images/blank-title-link.png)
+    ![
+    Illustrazione dell'aspetto del testo del titolo in una pagina web e nel codice HTML
+    ](https://developers.google.com/static/search/docs/images/titles-on-page-html.png)
+
+- Scriverne [uno efficace](https://developers.google.com/search/docs/appearance/title-link)
+    - Unico per la pagina
+    - Chiaro
+    - Conciso
+    - Ne descriva accuratamente i contenuti
+
+#### Controllare gli snippet
+![
+Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla riga della parte dello snippet
+](https://developers.google.com/static/search/docs/images/blank-snippet.png)
+- Descrizione della pagina di destinazione 
+    - Sotto il link del titolo
+    - Aiuta gli utenti a decidere se fare click
+- Estratto dai contenuti della pagina a cui rimanda il risultato di ricerca 
+    - Controllo sulle parole che possono essere usate per generare lo snippet 
+    - Estratto da contenuti del tag della [meta descrizione](https://developers.google.com/search/docs/appearance/snippet#meta-descriptions)
+        - Breve riepilogo della pagina di 1/2 frasi
+        - Unica per determinata pagina 
+        - Include i punti più significativi della pagina
+
+### Aggiungere immagini ed ottimizzarle
+
+Molte persone effettuano ricerche visive
+- Le immagini possono rappresentare il modo in cui gli utenti trovano il sito per la prima volta
+- Se aggiungi immagini -> assicurati che le persone ed i motori di ricerca siano in grado di trovarle e comprenderle
+
+Di seguito
+- [Aggiungere immagini di alta qualità accanto al testo pertinente](#immagini-di-alta-qualità-accanto-al-testo)
+- [Aggiungere testo alternativo descrittivo all'immagine](#aggiungere-testo-alternativo-descrittivo-allimmagine)
+
+#### Immagini di alta qualità accanto al testo
+- Meglio fornire agli utenti contesto e dettagli sufficienti per decidere quale immagine corrisponde meglio a ciò che stavano cercando
+- Usa immagini nitide e chiare, e posizionale vicino al testo pertinente all'immagine
+    - Il testo accanto alle immagini può aiutare Google a comprendere meglio l'argomento dell'immagine e il suo significato nel contesto della tua pagina
+
+#### Aggiungere testo alternativo descrittivo all'immagine
+- Il testo alternativo è una porzione di testo breve ma descrittiva che spiega la relazione tra l'immagine e i tuoi contenuti
+- Aiuta i motori di ricerca a capire l'argomento dell'immagine e come è correlata alla tua pagina
+    - E' importante aggiungere [testo alternativo efficace](https://developers.google.com/search/docs/appearance/google-images#descriptive-alt-text)
+
+### [Ottimizzazione dei video](https://developers.google.com/search/docs/appearance/video)
+- Le persone potrebbero anche riuscire a scoprire il tuo sito tramite i risultati di video nella Ricerca Google
+- Crea contenuti video di alta qualità
+    - Incorpora il video in una pagina autonoma, vicino a del testo pertinente al video
+    - Scrivi un testo descrittivo nei campi dei titoli e della descrizione di un video 
+        - Il titolo di un video è sempre un titolo, quindi puoi applicare le best practice per la scrittura dei titoli anche in questo caso
+
+### [Promuovere il sito web](https://developers.google.com/search/docs/essentials/spam-policies)
+- Promozione sui social media
+- Coinvolgimento della community
+- Pubblicità, sia offline che online
+    - Come stampare il sito su bigliettini da visita 
+- Passaparola e molti altri metodi
+    - [Risorse per ampliare e coinvolgere il pubblico](https://creators.google/en-us/content-creation-guides/audience-engagement/)
+
+### Aspetti su cui non soffermarsi
+- Meta tag keywords
+    - La [ricerca Google non usa i meta-tag keywords](https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag)
+- Parole chiave in eccesso
+    - Ripetere eccessivamente le stesse parole (anche in varianti) possono stancare gli utenti ed essere viste dal motore di ricerca come [violazione relativa allo spam](https://developers.google.com/search/docs/essentials/spam-policies#keyword-stuffing)
+- Parole chiave nel nome di dominio o nel percorso dell'URL 
+    - Fai ciò che è meglio per l'azienda
+        - Usa le best practice per il marketing
+    - Per il ranking
+        - Utilizzo di parole chiave nel nome del dominio/nell'URL -> quasi nessun effetto se non nel [breadcrumb](https://developers.google.com/search/docs/appearance/visual-elements-gallery#breadcrumb)
+        - Per i nomi di dominio di primo livello
+            - Importante solo se scegli come target gli utenti di un paese specifico e, anche in questo caso, di solito è un indicatore a basso impatto
+            - Altrimenti non infleunza il ranking
+- Lunghezza minima o massima dei contenuti
+    - Se si prende in considerazione solo questo parametro -> non conta 
+    - Se si usano varianti delle parole (scrivendo in modo naturale per evitare le ripetizioni), si hanno maggiori possibilità di comparire nella Ricerca semplicemente perché si utilizzano più parole chiave
+- Sottodomini e sottodirectory
+    - Fare tutto ciò che è utile all'attività
+    - Puoi
+        - Gestire il sito se è segmentato per sottodirectory
+        - Suddividere gli argomenti in sottodomini, a seconda dell'argomento o del settore del sito
+- [PageRank](https://developers.google.com/search/docs/appearance/ranking-systems-guide#link-analysis)
+    - Utilizza i link ed è uno degli algoritmi fondamentali di Google 
+    - La ricerca prende in considerazione anche altri indicatori di ranking
+- "Penalità" per contenuti duplicati
+    - Se alcuni dei tuoi contenuti sono accessibili da più URL, non è un problema
+    - Non è efficiente MA non è causa di azione manuale
+        - Diversamente se si [copiano i contenuti di altri siti](https://developers.google.com/search/docs/essentials/spam-policies#scraped-content)
+- Numero e ordine delle intestazioni
+    - L'ordine semantico è ottimo per gli screenreader ma non importa nulla per la ricerca Google 
+        - Solitamente non usa HTML valido -> ricerca spesso non dipende da significati semantici nell'HTML 
+    - Non esiste una quantità magica e ideale di intestazioni che una determinata pagina dovrebbe avere
+        - Se ci sono troppi link, diminuiscine il numero 
+- Pensare che i criteri EEAT costituiscano un fattore di ranking
+    - [Expertise, Authoritativeness, Trustworthiness](https://developers.google.com/search/docs/fundamentals/creating-helpful-content#eat)
+
+### Consigli
+- Utilizza [Search Console](https://developers.google.com/search/docs/monitor-debug/search-console-start)
+    - Configurare un account Search Console ti consente di monitorare e ottimizzare le prestazioni del tuo sito web sulla Ricerca Google
+- [Gestire la SEO del tuo sito web nel tempo](https://developers.google.com/search/docs/fundamentals/get-started)
+    - Attività e scenari più approfonditi relativi alla SEO
+- Migliorare l'aspetto del tuo sito nei risultati della Ricerca Google
+    - [Dati strutturati](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) validi sulle tue pagine le rendono idonee anche per molte funzionalità speciali nei risultati della Ricerca Google
+        - Stelle delle recensioni
+        - Caroselli
+        - ...
+    - Molto utile è la [galleria](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) dei tipi di risultati di ricerca per i quali le pagine possono essere idonee
 
 
 ## Fonti
 
-Google Search
-- [Nozioni di base sulla Ricerca Google](https://developers.google.com/search/docs/essentials)
-- [Guida approfondita sul funzionamento di Google Search](https://developers.google.com/search/docs/fundamentals/how-search-works)
+Google
+- Google Search
+    - [Nozioni di base sulla Ricerca Google](https://developers.google.com/search/docs/essentials)
+    - [Guida approfondita sul funzionamento di Google Search](https://developers.google.com/search/docs/fundamentals/how-search-works)
+- Search Engine Optimization
+    - [Guida introduttiva all'ottimizzazione per i motori di ricerca](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 
-Search Engine Optimization
-- [Guida introduttiva all'ottimizzazione per i motori di ricerca](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+Salvatore Aranzulla
+- ...
