@@ -304,7 +304,7 @@ Di seguito
 
 #### Influenzare i link dei titoli
 <table style="border: none;">
-    <tr>
+    <tr style="background-color: transparent;">
         <td style="border: none; padding-left: 0; width: auto;">
             Prendono parte del titolo presente nei risultati di ricerca e può aiutare le persone a fare click.
         </td>
@@ -316,7 +316,7 @@ Di seguito
             />
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: transparent;">
         <td style="border: none; padding-left: 0; width: auto;">
             Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code>title</code> ed altre intestazioni della pagina.
             Il testo del titolo può essere usato anche per il titolo del risultato (il Tag Title) mostrato nei browser web e nei preferiti.
