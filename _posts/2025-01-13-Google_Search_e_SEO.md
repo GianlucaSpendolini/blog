@@ -380,6 +380,7 @@ Di seguito
                                                                       href="https://ads.google.com/intl/it_it/home/tools/keyword-planner"
                                     >strumento</a> utile a determinare quelle più pertinenti e vantaggiose da utilizzare, in relazione a un argomento.
                                 </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
