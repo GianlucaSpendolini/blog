@@ -180,9 +180,9 @@ Di seguito:
 - [Ridurre i contenuti duplicati](#ridurre-i-contenuti-duplicati)
 
 #### URL descrittivi
-<table style="border: none; padding-left: 0;">
+<table style="border: none;">
     <tr>
-        <td style="border: none; width: auto;">
+        <td style="border: none; padding-left: 0; width: auto;">
             Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigio-chiaro accanto a 'dominio' > ...).
             Ciò permette agli utenti di utilizzare anche gli URL per capire se un risultato sarà utile per loro.
             <br /><br />
