@@ -180,24 +180,49 @@ Di seguito:
 - [Ridurre i contenuti duplicati](#ridurre-i-contenuti-duplicati)
 
 #### URL descrittivi
-![
-Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb
-](https://developers.google.com/static/search/docs/images/text-result.png)
-- Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigio-chiaro accanto a 'dominio' > ...)
-    - Gli utenti possano utilizzare anche gli URL per capire se un risultato sarà utile per loro
-- Google viene a conoscenza automaticamente dei breadcrumb in base alle parole nell'URL
-    - Puoi anche influenzarli con i dati strutturati se hai le competenze tecniche necessarie
-    - Si può provare a includere nell'URL parole che potrebbero essere utili per gli utenti
+<table style="">
+    <tr>
+        <td style="width: auto;">
+            Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigio-chiaro accanto a 'dominio' > ...).
+            Ciò permette agli utenti di utilizzare anche gli URL per capire se un risultato sarà utile per loro.
+            <br /><br />
+            Inoltre, Google viene a conoscenza automaticamente dei breadcrumb in base alle parole nell'URL.
+            I breadcrumb possono anche essere influenzati con i dati strutturati se si hanno le competenze tecniche necessarie.
+            Una cosa molto utile è quella di provare a includere nell'URL parole che potrebbero essere utili per gli utenti.
+        </td>
+        <td style="width: 200px;">
+            <img 
+                alt="Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb" 
+                src="https://developers.google.com/static/search/docs/images/text-result.png" 
+                style="max-width: 100%; height: auto;"
+            />
+        </td>
+    </tr>
+</table>
 
 #### Raggruppare le pagine nelle directory
-![
-Illustrazione di come raggruppare le pagine nelle directory
-](https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png)
-- Il modo in cui organizzi i contenuti potrebbe influire su come Google esegue la scansione e l'indicizzazione del sito
-    - L'uso di directory (o cartelle) per raggruppare argomenti simili può aiutare Google a capire la frequenza con cui cambiano gli URL nelle singole directory
-- Google può apprendere queste informazioni ed eseguire la scansione delle varie directory a frequenze diverse
-    - [Strutture](https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure) dei siti ottimizzate per la ricerca
-    - Avere un'efficace struttura degli URL ha un'importanza
+
+<table style="">
+    <tr>
+        <td style="width: auto;">
+            Il modo in cui vengono organizzati i contenuti potrebbe influire su come Google esegue la scansione e l'indicizzazione del sito.
+            <br /><br />
+            L'uso di directory (o cartelle) per raggruppare argomenti simili può aiutare Google a capire la frequenza con cui cambiano gli URL nelle singole directory.
+            <br /><br />
+            Inoltre Google può apprendere queste informazioni ed eseguire la scansione delle varie directory a frequenze diverse.
+            Un consiglio potrebbe essere quello di avere le <a 
+                href="https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure"
+            >strutture</a> dei siti ottimizzate per la ricerca, poichè avere un'efficace struttura degli URL ha un'importanza molto rilevante.
+        </td>
+        <td style="width: 200px;">
+            <img 
+                alt="Illustrazione di come raggruppare le pagine nelle directory" 
+                src="https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png" 
+                style="max-width: 100%; height: auto;"
+            />
+        </td>
+    </tr>
+</table>
 
 #### Ridurre i contenuti duplicati
 - Evitare di fare come molti siti che mostrano gli stessi contenuti ma con URL diversi poichè i motori di ricerca sceglieranno solo quello canonico da registrare
@@ -239,9 +264,14 @@ Di seguito
 - Evitare che distraggano eccessivamente o che impediscano di leggere i contenuti
 
 #### Inserire link a risorse pertinenti
-![
-Illustrazione che mostra la parte di testo di un link
-](https://developers.google.com/static/search/docs/images/what-is-link-text.png)
+<div align="center">
+    <img 
+        alt="Illustrazione che mostra la parte di testo di un link"
+        src="https://developers.google.com/static/search/docs/images/what-is-link-text.png"
+        width="50%"
+    />
+</div>
+
 - I link sono molto utili per collegare gli utenti e i motori di ricerca ad altre parti del tuo sito o a pagine pertinenti su altri siti
     - I link possono aggiungere valore anche collegando gli utenti e Google ad un'altra risorsa che conferma ciò di cui scrivi
 - Il testo del link ([anchor text](https://developers.google.com/search/docs/crawling-indexing/links-crawlable#write-good-anchor-text))
@@ -268,37 +298,86 @@ Di seguito
 - [Controllare gli snippet](#controllare-gli-snippet)
 
 #### Influenzare i link dei titoli
-- Parte del titolo dei risultati di ricerca 
-    - Aiuta le persone a fare click
-- Ci sono fonti che Google usa per generare il link del titolo tramite le parole dentro ```<title></title>``` ed altre intestazioni della pagina 
-    - Il testo del titolo può essere usato anche per il titolo mostrato nei browser web e nei preferiti
-
-    ![
-    Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla parte del link del titolo
-    ](https://developers.google.com/static/search/docs/images/blank-title-link.png)
-    ![
-    Illustrazione dell'aspetto del testo del titolo in una pagina web e nel codice HTML
-    ](https://developers.google.com/static/search/docs/images/titles-on-page-html.png)
-
-- Scriverne [uno efficace](https://developers.google.com/search/docs/appearance/title-link)
-    - Unico per la pagina
-    - Chiaro
-    - Conciso
-    - Ne descriva accuratamente i contenuti
+<table>
+    <tr>
+        <td>
+            Parte del titolo dei risultati di ricerca può aiutare le persone a fare click.
+            <br /><br />
+            Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code><title></title></code> ed altre intestazioni della pagina.
+            Il testo del titolo può essere usato anche per il titolo mostrato nei browser web e nei preferiti.
+            <br /><br />
+            Per criverne <a
+                             href="https://developers.google.com/search/docs/appearance/title-link"
+             >uno efficace</a> si possono tenere a mente questi dettagli:
+            <ul>
+                <li>
+                    Unico per la pagina
+                </li>
+                <li>
+                    Chiaro
+                </li>
+                <li>
+                    Conciso
+                </li>
+                <li>
+                    Ne descriva accuratamente i contenuti
+                </li>
+            </ul>
+        </td>
+        <td>
+            <img 
+                alt="Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla parte del link del titolo" 
+                src="https://developers.google.com/static/search/docs/images/blank-title-link.png" 
+                style="max-width: 100%; height: auto;"
+            />
+            <img 
+                alt="Illustrazione dell'aspetto del testo del titolo in una pagina web e nel codice HTML" 
+                src="https://developers.google.com/static/search/docs/images/titles-on-page-html.png" 
+                style="max-width: 100%; height: auto;"
+            />
+        </td>
+    </tr>
+</table>
 
 #### Controllare gli snippet
-![
-Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla riga della parte dello snippet
-](https://developers.google.com/static/search/docs/images/blank-snippet.png)
-- Descrizione della pagina di destinazione 
-    - Sotto il link del titolo
-    - Aiuta gli utenti a decidere se fare click
-- Estratto dai contenuti della pagina a cui rimanda il risultato di ricerca 
-    - Controllo sulle parole che possono essere usate per generare lo snippet 
-    - Estratto da contenuti del tag della [meta descrizione](https://developers.google.com/search/docs/appearance/snippet#meta-descriptions)
-        - Breve riepilogo della pagina di 1/2 frasi
-        - Unica per determinata pagina 
-        - Include i punti più significativi della pagina
+<table>
+    <tr>
+        <td>
+            Gli snippet non sono altro che una descrizione della pagina di destinazione.
+            Si trovano sotto il link del titolo e aiutano gli utenti a decidere se fare click.
+            <br /><br />
+            Il testo è estratto dai contenuti della pagina a cui rimanda il risultato di ricerca, mediante:
+            <ul>
+                <li>
+                    Controllo sulle parole che possono essere usate per generare lo snippet;
+                </li>
+                <li>
+                    Estrazione dei contenuti del tag della <a
+                                                               href="https://developers.google.com/search/docs/appearance/snippet#meta-descriptions"
+                                                           >meta descrizione</a>
+                    <ul>
+                        <li>
+                            Breve riepilogo della pagina di 1/2 frasi;
+                        </li>
+                        <li>
+                            Unica per determinata pagina;
+                        </li>
+                        <li>
+                            Include i punti più significativi della pagina.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+        <td>
+            <img 
+                alt="Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla riga della parte dello snippet" 
+                src="https://developers.google.com/static/search/docs/images/blank-snippet.png" 
+                style="max-width: 100%; height: auto;"
+            />
+        </td>
+    </tr>
+</table>
 
 ### Aggiungere immagini ed ottimizzarle
 
