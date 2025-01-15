@@ -19,6 +19,8 @@ Per questa sezione, inizierò introducendo le nozioni base sulla ricerca, per po
 
 ### Nozioni base
 
+Quando fai una ricerca, fornisci al motore di ricerca una [CONTINUA] e risposte fornite da Google sono ordinate per pertinenza e importanza all’interno della "pagina dei risultati del motore di ricerca" (in inglese "Search Engine Results Page").
+
 Gli aspetti fondamentali relativi a ciò che rende un contenuto idoneo ad essere mostrato e a funzionare
 - [Requisiti tecnici](#requisiti-tecnici)
     - Ciò di cui Google ha bisogno in una pagina web per mostrarla nei risultati di ricerca;
@@ -65,7 +67,7 @@ Non è garantito che eseguirà la scansione della tua pagina, che la indicizzer�
 
 Fasi
 - [Scansione](#scansione)
-    - Scaricati i testi, immagini e video dalle pagine trovate su internet tramite programmi automatizzati chiamati crawler;
+    - Scaricati i testi, immagini e video dalle pagine trovate su internet tramite programmi automatizzati chiamati crawler (o bot);
 - [Indicizzazione](#indicizzazione)
     - Analizzati il testo, le immagini e i file video sulla pagina e memorizza le informazioni nell'Indice Google (è un grande database);
 - [Pubblicazione dei risultati di ricerca](#pubblicazione-dei-risultati)
