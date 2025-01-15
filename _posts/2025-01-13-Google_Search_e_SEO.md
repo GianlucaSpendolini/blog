@@ -180,7 +180,7 @@ Di seguito:
 - [Ridurre i contenuti duplicati](#ridurre-i-contenuti-duplicati)
 
 #### URL descrittivi
-<table style="border: none;">
+<table style="border: none; padding-left: 0;">
     <tr>
         <td style="border: none; width: auto;">
             Delle parti possono essere visualizzate nei risultati come breadcrumb (parte grigio-chiaro accanto a 'dominio' > ...).
@@ -190,7 +190,7 @@ Di seguito:
             I breadcrumb possono anche essere influenzati con i dati strutturati se si hanno le competenze tecniche necessarie.
             Una cosa molto utile è quella di provare a includere nell'URL parole che potrebbero essere utili per gli utenti.
         </td>
-        <td style="border: none; width: 200px;">
+        <td style="border: none; padding-right: 0; width: 200px;">
             <img 
                 alt="Illustrazione che mostra un risultato di testo nella Ricerca Google con callout che etichettano elementi visivi dell'URL visibili specifici, tra cui dominio e breadcrumb" 
                 src="https://developers.google.com/static/search/docs/images/text-result.png" 
@@ -204,7 +204,7 @@ Di seguito:
 
 <table style="border: none;">
     <tr>
-        <td style="border: none; width: auto;">
+        <td style="border: none; padding-left: 0; width: auto;">
             Il modo in cui vengono organizzati i contenuti potrebbe influire su come Google esegue la scansione e l'indicizzazione del sito.
             <br /><br />
             L'uso di directory (o cartelle) per raggruppare argomenti simili può aiutare Google a capire la frequenza con cui cambiano gli URL nelle singole directory.
@@ -214,7 +214,7 @@ Di seguito:
                 href="https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure"
             >strutture</a> dei siti ottimizzate per la ricerca, poichè avere un'efficace struttura degli URL ha un'importanza molto rilevante.
         </td>
-        <td style="border: none; width: 200px;">
+        <td style="border: none; padding-right: 0; width: 200px;">
             <img 
                 alt="Illustrazione di come raggruppare le pagine nelle directory" 
                 src="https://developers.google.com/static/search/docs/images/grouping-pages-in-directories.png" 
@@ -300,10 +300,10 @@ Di seguito
 #### Influenzare i link dei titoli
 <table style="border: none;">
     <tr>
-        <td style="border: none; width: auto;">
+        <td style="border: none; padding-left: 0; width: auto;">
             Parte del titolo dei risultati di ricerca può aiutare le persone a fare click.
             <br /><br />
-            Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code><title></code> ed altre intestazioni della pagina.
+            Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code>title</code> ed altre intestazioni della pagina.
             Il testo del titolo può essere usato anche per il titolo mostrato nei browser web e nei preferiti.
             <br /><br />
             Per criverne <a
@@ -324,7 +324,7 @@ Di seguito
                 </li>
             </ul>
         </td>
-        <td style="border: none; width: 200px;">
+        <td style="border: none; padding-right: 0; width: 200px;">
             <img 
                 alt="Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla parte del link del titolo" 
                 src="https://developers.google.com/static/search/docs/images/blank-title-link.png" 
@@ -342,7 +342,7 @@ Di seguito
 #### Controllare gli snippet
 <table style="border: none;">
     <tr>
-        <td style="border: none; width: auto;">
+        <td style="border: none; padding-left: 0; width: auto;">
             Gli snippet non sono altro che una descrizione della pagina di destinazione.
             Si trovano sotto il link del titolo e aiutano gli utenti a decidere se fare click.
             <br /><br />
@@ -369,7 +369,7 @@ Di seguito
                 </li>
             </ul>
         </td>
-        <td style="border: none; width: 200px;">
+        <td style="border: none; padding-right: 0; width: 200px;">
             <img 
                 alt="Illustrazione di un risultato di testo nella Ricerca Google, con un riquadro evidenziato intorno alla riga della parte dello snippet" 
                 src="https://developers.google.com/static/search/docs/images/blank-snippet.png" 
