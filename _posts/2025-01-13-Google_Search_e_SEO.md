@@ -19,7 +19,8 @@ Per questa sezione, inizierò introducendo le nozioni base sulla ricerca, per po
 
 ### Nozioni base
 
-Quando fai una ricerca, fornisci al motore di ricerca una [CONTINUA] e risposte fornite da Google sono ordinate per pertinenza e importanza all’interno della "pagina dei risultati del motore di ricerca" (in inglese "Search Engine Results Page").
+Quando si fa una ricerca, vengono fornite al motore di ricerca delle parole chiave (keywords) che verranno usate per richiedere sottoforma di query (come se stessi formulando una domanda) i contenuti più pertinenti.
+Le risposte fornite da Google sono ordinate per pertinenza e importanza all’interno della "pagina dei risultati del motore di ricerca" (in inglese "Search Engine Results Page").
 
 Gli aspetti fondamentali relativi a ciò che rende un contenuto idoneo ad essere mostrato e a funzionare
 - [Requisiti tecnici](#requisiti-tecnici)
@@ -119,6 +120,8 @@ Fasi
 ## Search Engine Optimization
 
 La SEO serve ad aiutare i motori di ricerca a comprendere i tuoi contenuti, nonché aiutare gli utenti a trovare il tuo sito e decidere se visitarlo tramite un motore di ricerca.
+
+Essa differisce dalla Search Engine Marketing poichè non punta al collocamento di argomenti nella SERP per mezzo di campagne pubblicitarie a pagamento (tramite Pay per clic).
 
 Non è garantito che un determinato sito venga aggiunto all'indice di Google, ma hanno maggiori probabilità di comparire nei risultati di ricerca di Google.
 
@@ -303,28 +306,7 @@ Di seguito
 <table style="border: none;">
     <tr>
         <td style="border: none; padding-left: 0; width: auto;">
-            Parte del titolo dei risultati di ricerca può aiutare le persone a fare click.
-            <br /><br />
-            Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code>title</code> ed altre intestazioni della pagina.
-            Il testo del titolo può essere usato anche per il titolo mostrato nei browser web e nei preferiti.
-            <br /><br />
-            Per criverne <a
-                             href="https://developers.google.com/search/docs/appearance/title-link"
-             >uno efficace</a> si possono tenere a mente questi dettagli:
-            <ul>
-                <li>
-                    Unico per la pagina
-                </li>
-                <li>
-                    Chiaro
-                </li>
-                <li>
-                    Conciso
-                </li>
-                <li>
-                    Ne descriva accuratamente i contenuti
-                </li>
-            </ul>
+            Prendono parte del titolo presente nei risultati di ricerca e può aiutare le persone a fare click.
         </td>
         <td style="border: none; padding-right: 0; width: 200px;">
             <img 
@@ -332,6 +314,32 @@ Di seguito
                 src="https://developers.google.com/static/search/docs/images/blank-title-link.png" 
                 style="max-width: 100%; height: auto;"
             />
+        </td>
+    </tr>
+    <tr>
+        <td style="border: none; padding-left: 0; width: auto;">
+            Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code>title</code> ed altre intestazioni della pagina.
+            Il testo del titolo può essere usato anche per il titolo del risultato (il Tag Title) mostrato nei browser web e nei preferiti.
+            <br />
+            Per criverne <a 
+                             href="https://developers.google.com/search/docs/appearance/title-link"
+            >uno efficace</a> il titolo deve essere:
+            <ul>
+                <li>
+                    Unico per la pagina (ogni pagina del sito deve avere un titolo che la rappresenti);
+                </li>
+                <li>
+                    Chiaro;
+                </li>
+                <li>
+                    Conciso;
+                </li>
+                <li>
+                    Ne descriva accuratamente i contenuti.
+                </li>
+            </ul>
+        </td>
+        <td style="border: none; padding-right: 0; width: 200px;">
             <img 
                 alt="Illustrazione dell'aspetto del testo del titolo in una pagina web e nel codice HTML" 
                 src="https://developers.google.com/static/search/docs/images/titles-on-page-html.png" 
@@ -356,16 +364,22 @@ Di seguito
                 <li>
                     Estrazione dei contenuti del tag della <a
                                                                href="https://developers.google.com/search/docs/appearance/snippet#meta-descriptions"
-                                                           >meta descrizione</a>
+                    >meta descrizione</a>, la quale deve
                     <ul>
                         <li>
-                            Breve riepilogo della pagina di 1/2 frasi;
+                            Essere un breve riepilogo della pagina (1/2 frasi);
                         </li>
                         <li>
-                            Unica per determinata pagina;
+                            Essere unica per ogni pagina;
                         </li>
                         <li>
-                            Include i punti più significativi della pagina.
+                            Includere i punti più significativi della pagina (compresa la keyword identificativa) in modo accattivante
+                            <ul>
+                                <li>
+                                    Per questo viene in aiuto uno <a
+                                                                      href="https://ads.google.com/intl/it_it/home/tools/keyword-planner"
+                                    >strumento</a> utile a determinare quelle più pertinenti e vantaggiose da utilizzare, in relazione a un argomento.
+                                </li>
                         </li>
                     </ul>
                 </li>
