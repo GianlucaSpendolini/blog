@@ -119,14 +119,29 @@ Fasi
 
 ## Search Engine Optimization
 
+Ora che è più chiaro come funziona la ricerca di Google, è arrivato il momento di impegnarsi per migliorare la presenza del sito nella Ricerca tramite la SEO:
+- Se vengono seguite le best practice, magari sarà più facile per i motori di ricerca (non solo Google) eseguire la scansione, indicizzare e comprendere i tuoi contenuti.
+
 La SEO serve ad aiutare i motori di ricerca a comprendere i tuoi contenuti, nonché aiutare gli utenti a trovare il tuo sito e decidere se visitarlo tramite un motore di ricerca.
 
-Essa differisce dalla Search Engine Marketing poichè non punta al collocamento di argomenti nella SERP per mezzo di campagne pubblicitarie a pagamento (tramite Pay per clic).
+Essa differisce dalla Search Engine Marketing poichè non punta al collocamento di argomenti nella SERP per mezzo di campagne pubblicitarie a pagamento (tramite Pay per Clic).
 
 Non è garantito che un determinato sito venga aggiunto all'indice di Google, ma hanno maggiori probabilità di comparire nei risultati di ricerca di Google.
 
-La SEO riguarda il passo successivo: impegnarsi per migliorare la presenza del tuo sito nella Ricerca
-- Se vengono seguite le best practice, magari sarà più facile per i motori di ricerca (non solo Google) eseguire la scansione, indicizzare e comprendere i tuoi contenuti.
+Oltre ai numerosi fattori SEO che verranno introdotti successivamente, esistono numerose condizioni che possono favorire una pagina Web:
+- L'anzianità di un dominio;
+- L'utilizzo del certificato SSL (Secure Socket Layer) per la navigazione sicura;
+- L'aver inviato correttamente una sitemap al motore di ricerca;
+- La frequenza di rimbalzo (Bounce Rate), ovvero il tempo che gli utenti trascorrono sulla pagina, senza uscire immediatamente;
+- Il CTR (Click Through Rate), ovvero la frequenza di click sulla pagina;
+- Il seguito su profili social correlati al sito.
+
+Tornando alla SEO, in generale, le pratiche si suddividono in:
+- SEO on page
+  - Tutte le operazioni di ottimizzazione eseguite all'interno di una pagina Web specifica, di un sito, di un blog, etc;
+- SEO off page
+  - Attività svolte al di fuori di una precisa pagina Web;
+  - Hanno il compito di ricondurre alla pagina (come la cura di una pagina social legata a contenuti presenti sul sito).
 
 Di seguito riporterò:
 - [Tempistiche per vedere gli effetti](#tempistiche-per-i-risultati)
@@ -137,6 +152,7 @@ Di seguito riporterò:
 - [Aggiungere immagini ed ottimizzarle](#aggiungere-immagini-ed-ottimizzarle)
 - [Ottimizzazione dei video](#ottimizzazione-dei-video)
 - [Promuovere il sito web](#promuovere-il-sito-web)
+- [Negative SEO](#negative-seo)
 - [Aspetti su cui non soffermarsi](#aspetti-su-cui-non-soffermarsi)
 - [Consigli extra](#consigli)
 
@@ -320,7 +336,7 @@ Di seguito
         <td style="border: none; padding-left: 0; width: auto;">
             Ci sono fonti che Google usa per generare il link del titolo tramite le parole inserite nel tag <code>title</code> ed altre intestazioni della pagina.
             Il testo del titolo può essere usato anche per il titolo del risultato (il Tag Title) mostrato nei browser web e nei preferiti.
-            <br />
+            <br /><br />
             Per criverne <a 
                              href="https://developers.google.com/search/docs/appearance/title-link"
             >uno efficace</a> il titolo deve essere:
@@ -430,6 +446,14 @@ Di seguito
     - Come stampare il sito su bigliettini da visita 
 - Passaparola e molti altri metodi
     - [Risorse per ampliare e coinvolgere il pubblico](https://creators.google/en-us/content-creation-guides/audience-engagement/)
+
+### Negative SEO
+
+Come abbiamo detto precedentemente, ci sono molteplici fattori che possono influenzare influenzare negativamente i contenuti.
+
+In questo caso si parla di "negative SEO". Nel lungo elenco possiamo trovarne due in particolare:
+- Essere linkati da siti di tipo violento o finalizzati all'estorsione di dati o denaro;
+- La ripetizione ossessiva delle parole chiave (Keyword stuffing), come già detto nel post.
 
 ### Aspetti su cui non soffermarsi
 - Meta tag keywords
