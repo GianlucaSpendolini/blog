@@ -57,7 +57,7 @@ La control unit, coordina le operazioni interne alla CPU.
 
 Inoltre, tramite bus interno, apre i collegamenti tra:
 
-  Ccontrol Unit - Algorithm Logic Unit - Registri
+    Control Unit - Algorithm Logic Unit - Registri
 
 Inoltre, è quella componente che interpreta le varie istruzioni e le esegue, utilizzando i vari altri strumenti che ha a disposizione.
 
@@ -72,7 +72,18 @@ Un programma è un insieme di istruzioni.
 Siccome è complicato scrivere in linguaggio macchina, nonostante esista una logica dietro gli insiemi di 1 e 0, è stato creato il linguaggio assembler per facilitarne la scrittura. 
 Questo linguaggio è quello appena sopra quello macchina ed è l'intermezzo tra quest'ultimo e i linguaggi di più alto livello.
 
-[SINTASSI]
+La sintassi si divide in più gruppi di istruzioni
+- Calcolo
+
+      SUM ...
+
+- Accesso alla memoria
+
+      ...
+
+- Salto
+
+      ...
 
 #### Registri
 
@@ -161,13 +172,13 @@ Si dividono in due principali categorie:
       - -R
         - Se il disco può essere scritto soltanto una volta
         - I CD e DVD si dividono ulteriormente in
-          - +
-          - -
+          - \+
+          - \-
       - -RW
         - Se il disco può essere scritto più volte
   - Molto spesso sono utilizzati per tenere i dati come back-up poichè la loro velocità di
     - Lettura < disco magnetico
-    - Scrittura << disco magnetico
+    - Scrittura \<< disco magnetico
    
 ### Componenti esterne 
 
