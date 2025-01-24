@@ -4,8 +4,10 @@ date: 2025-01-24
 ---
 
 Questo post è diverso dagli altri: non lo userò per inserire degli appunti che ho preso su un argomento ma lo uso per vedere ciò che ricordo di quel macro-argomento che ho studiato.
-
 In futuro farò altri post di questo tipo.
+
+Ho presente che questi argomenti, per un informatico, dovrebbero essere la base, ma io ho iniziato a venire a conoscienza di questo mondo nel 2022, quando ho iniziato il corso ITS.
+Siccome molti argomenti non li ricordo bene, in vista dell'immatricolazione all'università telematica e-Campus (indirizzo _Sistemi di elaborazione e controllo_ della facoltà di [_Ingegneria Informatica_](https://uniecampus.coursecatalogue.cineca.it/corsi/2024/10026)), ho deciso di ripassare gli argomenti base (dalla parte hardware a quella software).
 
 In questo caso andrò a trattare: "**L'architettura di Von Neumann**".
 
@@ -43,7 +45,7 @@ Ha 3 principali componenti:
 - [Control Unit](#control-unit)
 - [Registri](#registri)
 
-Oltre ai precedenti, questo componente presente un bus, chiamato [bus interno](#bus-interno).
+Oltre ai precedenti, questo componente presenta un bus ([bus interno](#bus-interno)), e un "orologio" interno ([system clock](#system-clock)).
 
 #### ALU
 
@@ -58,6 +60,19 @@ Inoltre, tramite bus interno, apre i collegamenti tra:
   Ccontrol Unit - Algorithm Logic Unit - Registri
 
 Inoltre, è quella componente che interpreta le varie istruzioni e le esegue, utilizzando i vari altri strumenti che ha a disposizione.
+
+##### Istruzioni
+
+Una cosa molto importante da precisare è il concetto di istruzione e programma.
+
+Una istruzione è scritta in linguaggio macchina ed è ciò che capisce il computer per poi eseguire una o più operazioni che porteranno, all'utente, ad avere il risultato voluto.
+
+Un programma è un insieme di istruzioni.
+
+Siccome è complicato scrivere in linguaggio macchina, nonostante esista una logica dietro gli insiemi di 1 e 0, è stato creato il linguaggio assembler per facilitarne la scrittura. 
+Questo linguaggio è quello appena sopra quello macchina ed è l'intermezzo tra quest'ultimo e i linguaggi di più alto livello.
+
+[SINTASSI]
 
 #### Registri
 
@@ -97,6 +112,12 @@ Esistono 7 tipi principali di registri all'interno della CPU:
 
 Questo bus collega le componenti interne della CPU su delle linee elettriche.
 
+#### System Clock
+
+Il system clock è un dispositivo, utilizzato dalla CU, per temporizzare le attività della CPU.
+
+Produce segnali ad altizzima frequenza (a livello di GHz) di cui, ogni segnale è detto isieme di colpi di clock (quindi ogni impulso del segnale è un colpo di clock).
+
 
 ### Memoria Centrale
 
@@ -110,6 +131,49 @@ Questo tipo di memoria non è volatile e contiene principalmente:
   - Il programma principale che, una volta avviato il computer, va a cercare il Sistema Operativo e lo esegue
 - Basic Input/Output System
   - Insieme di programmi base per gestire i dispositivi esterni
+ 
+
+### Dischi
+
+I dischi hanno una capacità di memoria molto maggiore rispetto a quella della memoria centrale, ma è più lenta poichè il trasferimento di file e le modalità di lettura, richiedono più tempo.
+
+Si dividono in due principali categorie:
+- Magnetici
+  - Sono modificabili
+  - Vengono scritti e letti a blocchi di 1024 B
+  - Si dividono a loro volta tra
+    - Fissi
+      - Come l'hard disk
+    - Rimovibili
+      - Come il floppy disk
+  - Non possono essere danneggiati dalla polvere poichè chiusi in un contenitore metallico e sottovuoto
+- Ottici
+  - Scritti e letti tramite un laser
+  - Possono essere danneggiati dalla polvere
+  - Si dividono in
+    - 3 Categorie
+      - Compact Disk
+      - Display Video Disk
+      - Blu ray Disk
+    - Di cui, ogni categoria, può essere distinta tra
+      - -ROM
+        - Se il disco non è scrivibile
+      - -R
+        - Se il disco può essere scritto soltanto una volta
+        - I CD e DVD si dividono ulteriormente in
+          - +
+          - -
+      - -RW
+        - Se il disco può essere scritto più volte
+  - Molto spesso sono utilizzati per tenere i dati come back-up poichè la loro velocità di
+    - Lettura < disco magnetico
+    - Scrittura << disco magnetico
+   
+### Componenti esterne 
+
+Le due componenti principali sono il monitor, da scegliere con una buona risoluzione (ovvero la somma dei pixel e colori che può mostrare contemporaneamente), e la tastiera.
+
+Ci sono molti dispositivi esterni, basti pensare tutti coloro che possono essere collegati al PC (fisicamente o meno).
 
 
 
