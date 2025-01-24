@@ -1,5 +1,5 @@
 ---
-title: Architettura (base) di un calcolatore
+title: Architettura di un calcolatore (base)
 date: 2025-01-24
 ---
 
@@ -9,7 +9,7 @@ In futuro farò altri post di questo tipo.
 Ho presente che questi argomenti, per un informatico, dovrebbero essere la base, ma io ho iniziato a venire a conoscienza di questo mondo nel 2022, quando ho iniziato il corso ITS.
 Siccome molti argomenti non li ricordo bene, in vista dell'immatricolazione all'università telematica e-Campus (indirizzo _Sistemi di elaborazione e controllo_ della facoltà di [_Ingegneria Informatica_](https://uniecampus.coursecatalogue.cineca.it/corsi/2024/10026)), ho deciso di ripassare gli argomenti base (dalla parte hardware a quella software).
 
-In questo caso andrò a trattare: "**L'architettura di Von Neumann**".
+In questo caso andrò a trattare: "**L'architettura di Von Neumann**" (argomento studiato nuovamente e ripassato nella settimana che parte dal 20/01/2025).
 
 Questo post lo suddivido nel seguente modo:
 - [Cos'é un calcolatore](#cosé-un-calcolatore)
@@ -25,7 +25,7 @@ Un calcolatore è una macchina che esegue programmi per fornire risultati ad un 
 
 
 
-## L'architettura di Von Neumann
+## Architettura di Von Neumann
 
 Un calcolatore è composto principalmente dalle seguenti componenti fisici:
 - [Central Process Unit](#cpu)
@@ -67,6 +67,8 @@ Una cosa molto importante da precisare è il concetto di istruzione e programma.
 
 Una istruzione è scritta in linguaggio macchina ed è ciò che capisce il computer per poi eseguire una o più operazioni che porteranno, all'utente, ad avere il risultato voluto.
 
+Inoltre, è bene precisare che una istruzione è un insieme di microistruzioni, ovvero le operazioni base che il calcolatore è in grado di fare.
+
 Un programma è un insieme di istruzioni.
 
 Siccome è complicato scrivere in linguaggio macchina, nonostante esista una logica dietro gli insiemi di 1 e 0, è stato creato il linguaggio assembler per facilitarne la scrittura. 
@@ -74,16 +76,57 @@ Questo linguaggio è quello appena sopra quello macchina ed è l'intermezzo tra 
 
 La sintassi si divide in più gruppi di istruzioni
 - Calcolo
-
-      SUM ...
-
+  - Somma i valori di A e B, salvando il risultato nel registro A
+    ```
+      SUM
+    ```
+  - Toglie, dal valore nel registro A, il valore del registro B
+    ```
+      DIF
+    ```
+  - Incrementa di 1 il valore del registro A
+    ```
+      INC
+    ```
+  - Decrementa di 1 il valore del registro A
+    ```
+      DEC
+    ```
 - Accesso alla memoria
-
-      ...
-
-- Salto
-
-      ...
+  - Inserisce, nel registro A, il valore presente all'indirizzo "i"
+    ```
+    SETA i
+    ```
+  - Inserisce, nel registro B, il valore presente all'indirizzo "i"
+    ```
+    SETB i
+    ```
+  - Inserisce, all'indirizzo "i", il valore presente nel registro A
+    ```
+    STOREA i
+    ```
+  - Inserisce, all'indirizzo "i", il valore presente nel registro B
+    ```
+    STOREB i
+    ```
+- Salto (interrompe il funzionamento sequenziale)
+  - Esegue l'istruzione contenuta all'indirizzo "i"
+    ```
+    JUMP i
+    ```
+  - Possono essere presenti anche più condizioni in base al valore nel registro A
+    - = 0
+      ```
+      JUMPZ i
+      ```
+    - != 0
+      ```
+      JUMPNZ i
+      ```
+    - > 0
+      ```
+      JUMPGZ i
+      ```
 
 #### Registri
 
@@ -179,7 +222,8 @@ Si dividono in due principali categorie:
   - Molto spesso sono utilizzati per tenere i dati come back-up poichè la loro velocità di
     - Lettura < disco magnetico
     - Scrittura \<< disco magnetico
-   
+
+
 ### Componenti esterne 
 
 Le due componenti principali sono il monitor, da scegliere con una buona risoluzione (ovvero la somma dei pixel e colori che può mostrare contemporaneamente), e la tastiera.
@@ -187,10 +231,38 @@ Le due componenti principali sono il monitor, da scegliere con una buona risoluz
 Ci sono molti dispositivi esterni, basti pensare tutti coloro che possono essere collegati al PC (fisicamente o meno).
 
 
+## Bus di sistema
+
+Il bus di sistema serve per permettere lo scambio di dati tra tutte le componenti.
+
+Esso è suddiviso in 3 tipologie:
+- Bus Dati
+  - Bus che trasporta i dati tra le diverse componenti del computer
+- Bus Indirizzi
+  - Bus che trasporta l'indirizzo di memoria a cui accedere
+- Bus di Controllo
+  - Il bus di controllo è colui che trasporta il comando che la CPU ha imposto
+
+
 
 ## Discussione
 
-...
+Possiamo parlare di una tematica importante: la velocità di elaborazione. 
+Ogni volta che si sceglie un computer, per capire la velocità basta vedere la frequenza di clock, poichè una frequenza maggiora, comporta una velocità maggiore.
+
+Più o meno, con X colpi di clock, il processore può eseguire X x 0.5% microistruzioni.
+
+Infine, possiamo distinguere 2 tecnologie riguardanti i processori:
+- Complex Instruction Set Computer
+  - Numero maggiore di istruzioni poichè programmi più complessi
+    - CU più grande -> meno spazio per registri
+  - Scrittura agevolata
+- Reduced Istruction Set Computer
+  - Numero minore di istruzioni -> programmi più semplici
+    - CU più piccola -> più spazio per registri
+- Scrittura non agevolata
+
+Attualmente non c'è distinzione tra le due tipologie.
 
 
 
