@@ -55,7 +55,7 @@ L'ALU è quella componente adibita all'esecuzione delle operazione (logiche e ar
 
 La control unit, coordina le operazioni interne alla CPU. 
 
-Inoltre, tramite bus interno, apre i collegamenti tra:
+Tramite bus interno, apre i collegamenti tra:
 
     Control Unit - Algorithm Logic Unit - Registri
 
@@ -127,6 +127,13 @@ La sintassi si divide in più gruppi di istruzioni
       ```
       JUMPGZ i
       ```
+
+##### Fase di fetch
+
+Un'altra cosa molto importante da comprendere è la fase di fetch, ovvero la fase di acquisizione del dato.
+
+Essa comprende diversi step:
+- ...
 
 #### Registri
 
@@ -231,17 +238,23 @@ Le due componenti principali sono il monitor, da scegliere con una buona risoluz
 Ci sono molti dispositivi esterni, basti pensare tutti coloro che possono essere collegati al PC (fisicamente o meno).
 
 
-## Bus di sistema
+### Bus di sistema
 
 Il bus di sistema serve per permettere lo scambio di dati tra tutte le componenti.
 
 Esso è suddiviso in 3 tipologie:
 - Bus Dati
-  - Bus che trasporta i dati tra le diverse componenti del computer
+  - Bus che trasporta i dati ~~tra le diverse componenti del computer~~ da e verso la CPU
 - Bus Indirizzi
   - Bus che trasporta l'indirizzo di memoria a cui accedere
+  - <span style="color: red;">Comunica con la memoria centrale</span>
 - Bus di Controllo
   - Il bus di controllo è colui che trasporta il comando che la CPU ha imposto
+  - <span style="color: red;">In caso di</span>
+    - <span style="color: red;">Lettura</span>
+      - <span style="color: red;">Prende il dato dall'indirizzo fornito dal bus indirizzi</span>
+    - <span style="color: red;">Scrittura</span>
+      - <span style="color: red;">Memorizza il valore presente nel bus dati nell'indirizzo presente sul bus indirizzi</span>
 
 
 
