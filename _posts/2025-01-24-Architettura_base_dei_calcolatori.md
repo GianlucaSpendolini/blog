@@ -1,5 +1,5 @@
 ---
-title: Architettura di un calcolatore (base)
+title: Architettura (base) di un calcolatore
 date: 2025-01-24
 ---
 
@@ -7,17 +7,17 @@ Questo post è diverso dagli altri: non lo userò per inserire degli appunti che
 
 In futuro farò altri post di questo tipo.
 
-In questo caso andrò a trattare: "_L'architettura di Von Neumann_".
+In questo caso andrò a trattare: "**L'architettura di Von Neumann**".
 
 Questo post lo suddivido nel seguente modo:
-- [Cos'è un calcolatore](#cose-un-calcolatore)
+- [Cos'é un calcolatore](#cosé-un-calcolatore)
 - [L'architettura di Von Neumann](#architettura-di-von-neumann)
 - [Discussione: velocità e architettura dei processori](#discussione)
 - [Fonti](#fonti)
 
 
 
-## Cos'è un calcolatore
+## Cos'é un calcolatore
 
 Un calcolatore è una macchina che esegue programmi per fornire risultati ad un utente.
 
@@ -53,6 +53,10 @@ L'ALU è quella componente adibita all'esecuzione delle operazione (logiche e ar
 
 La control unit, coordina le operazioni interne alla CPU. 
 
+Inoltre, tramite bus interno, apre i collegamenti tra:
+
+  Ccontrol Unit - Algorithm Logic Unit - Registri
+
 Inoltre, è quella componente che interpreta le varie istruzioni e le esegue, utilizzando i vari altri strumenti che ha a disposizione.
 
 #### Registri
@@ -85,9 +89,27 @@ Esistono 7 tipi principali di registri all'interno della CPU:
       - Il dato, dal bus dati, viene depositato nel DR
       - La CU preleva il dato e lo pone in un altro registro
 - Interrupt Register
-  - Gestisce le interruzioni
+  - Gestisce le interruzioni\*
+ 
+\* Una interruzione è un segnale, derivante da un dispositivo quando è pronto, a cui è assegnato un numero (utile alla CU per riconoscerlo ed avviare il programma apposito per gestirlo).
+
+#### Bus Interno
+
+Questo bus collega le componenti interne della CPU su delle linee elettriche.
 
 
+### Memoria Centrale
+
+La memoria centrale è una memoria molto veloce. &Eacute; composta da una sequenza di bit, raggruppati in multipli di Byte (di cui ognuno ha una posizione ben precisa detta _indirizzo_).
+
+Principalmente è composta da una memoria RAM (Random Access Memory). 
+Essa memorizza i programmi e i dati ma, una volta tolta l'alimentazione elettrica, perde tutti i dati (per questo motivo è detta _volatile_).
+Oltre alla memoria RAM, è presente una memoria minore: la ROM (Read Only Memory). 
+Questo tipo di memoria non è volatile e contiene principalmente:
+- ...
+  - Il programma principale che, una volta avviato il computer, va a cercare il Sistema Operativo e lo esegue
+- Basic Input/Output System
+  - Insieme di programmi base per gestire i dispositivi esterni
 
 
 
