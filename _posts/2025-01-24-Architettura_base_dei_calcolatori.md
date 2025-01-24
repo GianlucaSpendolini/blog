@@ -123,7 +123,7 @@ La sintassi si divide in più gruppi di istruzioni
       ```
       JUMPNZ i
       ```
-    - > 0
+    - \> 0
       ```
       JUMPGZ i
       ```
