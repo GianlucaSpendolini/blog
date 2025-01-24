@@ -250,7 +250,7 @@ Esso è suddiviso in 3 tipologie:
 Possiamo parlare di una tematica importante: la velocità di elaborazione. 
 Ogni volta che si sceglie un computer, per capire la velocità basta vedere la frequenza di clock, poichè una frequenza maggiora, comporta una velocità maggiore.
 
-Più o meno, con X colpi di clock, il processore può eseguire X $*$ 0.5% microistruzioni.
+Più o meno, con X colpi di clock, il processore può eseguire X &times; 0.5% microistruzioni.
 
 Infine, possiamo distinguere 2 tecnologie riguardanti i processori:
 - Complex Instruction Set Computer
