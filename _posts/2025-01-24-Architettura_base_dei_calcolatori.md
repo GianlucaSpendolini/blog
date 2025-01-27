@@ -100,12 +100,20 @@ La sintassi si divide in più gruppi di istruzioni
     ```
 - Accesso alla memoria
   - Inserisce, nel registro A, il valore presente all'indirizzo "i"
+    <code>
+      <span class="err">SETA i</span>
+    </code>
     ```
-    SETA i
+    LOADA i
     ```
   - Inserisce, nel registro B, il valore presente all'indirizzo "i"
+
+    <code>
+      <span class="err">SETB i</span>
+    </code>
+    
     ```
-    SETB i
+    LOADB i
     ```
   - Inserisce, all'indirizzo "i", il valore presente nel registro A
     ```
