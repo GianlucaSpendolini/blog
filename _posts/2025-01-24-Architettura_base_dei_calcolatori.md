@@ -281,17 +281,20 @@ Esso è suddiviso in 3 tipologie:
 Possiamo parlare di una tematica importante: la velocità di elaborazione. 
 Ogni volta che si sceglie un computer, per capire la velocità basta vedere la frequenza di clock, poichè una frequenza maggiora, comporta una velocità maggiore.
 
-Più o meno, con X colpi di clock, il processore può eseguire X &times; 0.5% microistruzioni.
+Più o meno, con <span class="err">una frequenza di</span> X ~~colpi di clock~~, il processore può eseguire X &times; 0.5% microistruzioni<span class="err">/s</span>.
 
 Infine, possiamo distinguere 2 tecnologie riguardanti i processori:
 - Complex Instruction Set Computer
-  - Numero maggiore di istruzioni poichè programmi più complessi
-    - CU più grande -> meno spazio per registri
-  - Scrittura agevolata
+  - Numero maggiore di istruzioni ~~poichè programmi più complessi~~
+    - <span class="err">Compiti più complessi</span>
+    - CU più <span class="err">complessa -> più </span>grande -> meno spazio per registri
+  - Scrittura agevolata dei programmi
 - Reduced Istruction Set Computer
-  - Numero minore di istruzioni -> programmi più semplici
-    - CU più piccola -> più spazio per registri
+  - Numero minore di istruzioni ~~-> programmi più semplici~~
+    - <span class="err">Compiti più semplici</span>
+    - CU più <span class="err">semplice -> più </span>piccola -> più spazio per registri<span class="err"> -> < trasferimento &amp#8596; con memoria centrale</span>
 - Scrittura non agevolata
+  - <span class="err">Programmi lenti</span>
 
 Attualmente non c'è distinzione tra le due tipologie.
 
