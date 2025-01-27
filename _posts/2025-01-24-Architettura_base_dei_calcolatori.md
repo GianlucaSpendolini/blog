@@ -100,21 +100,25 @@ La sintassi si divide in più gruppi di istruzioni
     ```
 - Accesso alla memoria
   - Inserisce, nel registro A, il valore presente all'indirizzo "i"
-    <code>
-      <span class="err">SETA i</span>
-    </code>
-    ```
-    LOADA i
-    ```
-  - Inserisce, nel registro B, il valore presente all'indirizzo "i"
-
-    <code>
-      <span class="err">SETB i</span>
-    </code>
     
     ```
-    LOADB i
+    SETA i
     ```
+    
+    <code>
+      <span class="err">LOADA i</span>
+    </code>
+    
+  - Inserisce, nel registro B, il valore presente all'indirizzo "i"
+    
+    ```
+    SETB i
+    ```
+
+    <code>
+      <span class="err">LOADB i</span>
+    </code>
+    
   - Inserisce, all'indirizzo "i", il valore presente nel registro A
     ```
     STOREA i
@@ -202,7 +206,7 @@ Principalmente è composta da una memoria RAM (Random Access Memory).
 Essa memorizza i programmi e i dati ma, una volta tolta l'alimentazione elettrica, perde tutti i dati (per questo motivo è detta _volatile_).
 Oltre alla memoria RAM, è presente una memoria minore: la ROM (Read Only Memory). 
 Questo tipo di memoria non è volatile e contiene principalmente:
-- ...
+- Programma esecutivo
   - Il programma principale che, una volta avviato il computer, va a cercare il Sistema Operativo e lo esegue
 - Basic Input/Output System
   - Insieme di programmi base per gestire i dispositivi esterni
