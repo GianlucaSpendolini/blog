@@ -44,7 +44,7 @@ Oltre alle precedenti, presenta anche un ulteriore componente: il [bus di sistem
 
 ### CPU
 
-La CPU è il componente predisposto all'esecuzione dei comandi. Essa coordina i vari componenti del calcolatore, facendo sì che tutto funzioni regolarmente.
+La CPU è il componente predisposto all'esecuzione dei ~~comandi~~<span class="err">programmi</class>. Essa coordina i vari componenti del calcolatore, facendo sì che tutto funzioni regolarmente.
 
 Ha 3 principali componenti:
 - [Algorithm Logic Unit](#alu)
@@ -71,11 +71,11 @@ Inoltre, è quella componente che interpreta le varie istruzioni e le esegue, ut
 
 Una cosa molto importante da precisare è il concetto di istruzione e programma.
 
-Una istruzione è scritta in linguaggio macchina ed è ciò che capisce il computer per poi eseguire una o più operazioni che porteranno, all'utente, ad avere il risultato voluto.
+Una istruzione è scritta in linguaggio macchina ed è ciò che capisce il computer per poi ~~eseguire una o più operazioni~~<span class="err">essere eseguita dalla CPU</span> in modo da dare all'utente il risultato voluto.
 
 Inoltre, è bene precisare che una istruzione è un insieme di microistruzioni, ovvero le operazioni base che il calcolatore è in grado di fare.
 
-Un programma è un insieme di istruzioni.
+Invece, un programma è un insieme di istruzioni.
 
 Siccome è complicato scrivere in linguaggio macchina, nonostante esista una logica dietro gli insiemi di 1 e 0, è stato creato il linguaggio assembler per facilitarne la scrittura. 
 Questo linguaggio è quello appena sopra quello macchina ed è l'intermezzo tra quest'ultimo e i linguaggi di più alto livello.
@@ -155,25 +155,30 @@ Essa comprende diversi step:
 
 #### Registri
 
-I registri sono quella parte della CPU che memorizzano i dati utili che servono alla CPU per funzionare.
+I registri sono quella parte della CPU che memorizzano i dati utili ~~che servono alla CPU per funzionare~~<span class="err">su cui la CPU sta lavorando</span>.
 
 Sono memorie molto veloci (molto più della RAM di cui parlerò più avanti).
 
 Esistono 7 tipi principali di registri all'interno della CPU:
 - "A" e "B"
   - Sono quei registri che vanno a memorizzare i dati utili alle operazioni (compresi i risultati delle precedenti e gli operandi)
+  - <span class="err">Numero di bit scelti in fase di progettazione</span>
 - Status Register
   - Questo registro contiene il risultato dell'ultima operazione di confronto
   - Potrebbe anche contenere l'eventuale overflow derivante da un'operazione aritmetica
+  - <span class="err">Ha un bit per ogni proprietà -> n bit = n proprietà</span>
 - Program Counter
   - Contiene l'indirizzo del Byte di memoria contenente la prossima istruzione da eseguire
 - Current Instruction Register
   - Contiene l'istruzione che la CU sta eseguendo
 - Address Register
-  - Si interfaccia con la memoria centrale
+  - ~~Si interfaccia con la memoria centrale~~
+  - <span class="err">Collegato a bus interno</span>
+    - <span class="err">Indirizzo prelevato da PC/CIR o sono risultato di operazioni</span>
   - Mette a disposizione del bus indirizzi l'indirizzo al Byte di memoria a cui accedere
 - Data Register
   - Questo registro è utile per rendere visibili i dati che devono entrare o uscire dalla CPU
+    - <span class="err">Permette lo scambio di dati tra registri</span>
   - In caso di
     - Invio
       - Viene messo il dato nel DR
@@ -185,17 +190,17 @@ Esistono 7 tipi principali di registri all'interno della CPU:
 - Interrupt Register
   - Gestisce le interruzioni\*
  
-\* Una interruzione è un segnale, derivante da un dispositivo quando è pronto, a cui è assegnato un numero (utile alla CU per riconoscerlo ed avviare il programma apposito per gestirlo).
+\* Una interruzione è un segnale, derivante da un dispositivo<span class="err"> collegato</span> quando è pronto, a cui è assegnato un numero (utile ~~alla CU~~<span class="err">al SO</span> per riconoscerlo ed avviare il programma apposito per gestirlo).
 
 #### Bus Interno
 
-Questo bus collega le componenti interne della CPU su delle linee elettriche.
+Questo bus collega le componenti interne della CPU su delle linee elettriche<span class="err">, permettendo lo scambio di dati tra loro</span>.
 
 #### System Clock
 
 Il system clock è un dispositivo, utilizzato dalla CU, per temporizzare le attività della CPU.
 
-Produce segnali ad altizzima frequenza (a livello di GHz) di cui, ogni segnale è detto isieme di colpi di clock (quindi ogni impulso del segnale è un colpo di clock).
+Produce segnali<span class="err"> periodici</span> ad altizzima frequenza (a livello di GHz) di cui, ogni segnale è detto ~~isieme~~<span class="err">sequenza</span> di colpi di clock (quindi ogni impulso del segnale è un colpo di clock).
 
 
 ### Memoria Centrale
