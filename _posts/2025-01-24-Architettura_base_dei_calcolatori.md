@@ -292,7 +292,7 @@ Infine, possiamo distinguere 2 tecnologie riguardanti i processori:
 - Reduced Istruction Set Computer
   - Numero minore di istruzioni ~~-> programmi più semplici~~
     - <span class="err">Compiti più semplici</span>
-    - CU più <span class="err">semplice -> più </span>piccola -> più spazio per registri<span class="err"> -> < trasferimento &amp#8596; con memoria centrale</span>
+    - CU più <span class="err">semplice -> più </span>piccola -> più spazio per registri<span class="err"> -> < trasferimento con memoria centrale</span>
 - Scrittura non agevolata
   - <span class="err">Programmi lenti</span>
 
