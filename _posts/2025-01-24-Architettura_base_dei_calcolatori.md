@@ -3,6 +3,12 @@ title: Architettura di un calcolatore (base)
 date: 2025-01-24
 ---
 
+<style>
+    .err {
+        color: LightCoral;
+    }
+</style>
+
 Questo post è diverso dagli altri: non lo userò per inserire degli appunti che ho preso su un argomento ma lo uso per vedere ciò che ricordo di quel macro-argomento che ho studiato.
 In futuro farò altri post di questo tipo.
 
@@ -247,14 +253,14 @@ Esso è suddiviso in 3 tipologie:
   - Bus che trasporta i dati ~~tra le diverse componenti del computer~~ da e verso la CPU
 - Bus Indirizzi
   - Bus che trasporta l'indirizzo di memoria a cui accedere
-  - <span style="color: red;">Comunica con la memoria centrale</span>
+  - <span class="err">Comunica con la memoria centrale</span>
 - Bus di Controllo
   - Il bus di controllo è colui che trasporta il comando che la CPU ha imposto
-  - <span style="color: red;">In caso di</span>
-    - <span style="color: red;">Lettura</span>
-      - <span style="color: red;">Prende il dato dall'indirizzo fornito dal bus indirizzi</span>
-    - <span style="color: red;">Scrittura</span>
-      - <span style="color: red;">Memorizza il valore presente nel bus dati nell'indirizzo presente sul bus indirizzi</span>
+  - <span class="err">In caso di</span>
+    - <span class="err">Lettura</span>
+      - <span class="err">Prende il dato dall'indirizzo fornito dal bus indirizzi</span>
+    - <span class="err">Scrittura</span>
+      - <span class="err">Memorizza il valore presente nel bus dati nell'indirizzo presente sul bus indirizzi</span>
 
 
 
