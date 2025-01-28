@@ -1,5 +1,5 @@
 ---
-title: Architettura di un calcolatore (base)
+title: WIR - Architettura di un calcolatore (base)
 date: 2025-01-24
 ---
 
