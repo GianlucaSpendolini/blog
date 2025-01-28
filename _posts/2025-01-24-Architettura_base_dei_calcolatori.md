@@ -103,9 +103,6 @@ La sintassi si divide in più gruppi di istruzioni
     
     <code>
       <del>SETA i</del>
-    </code>
-    
-    <code>
       <span class="err">LOADA i</span>
     </code>
     
@@ -113,9 +110,6 @@ La sintassi si divide in più gruppi di istruzioni
     
     <code>
       <del>SETB i</del>
-    </code>
-
-    <code>
       <span class="err">LOADB i</span>
     </code>
     
