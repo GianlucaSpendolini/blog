@@ -101,9 +101,9 @@ La sintassi si divide in più gruppi di istruzioni
 - Accesso alla memoria
   - Inserisce, nel registro A, il valore presente all'indirizzo "i"
     
-    ```
-    SETA i
-    ```
+    <code>
+      <del>SETA i</del>
+    </code>
     
     <code>
       <span class="err">LOADA i</span>
@@ -111,9 +111,9 @@ La sintassi si divide in più gruppi di istruzioni
     
   - Inserisce, nel registro B, il valore presente all'indirizzo "i"
     
-    ```
-    SETB i
-    ```
+    <code>
+      <del>SETB i</del>
+    </code>
 
     <code>
       <span class="err">LOADB i</span>
