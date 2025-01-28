@@ -144,8 +144,17 @@ La sintassi si divide in più gruppi di istruzioni
 
 Un'altra cosa molto importante da comprendere è la fase di fetch, ovvero la fase di acquisizione del dato.
 
+<span class="err">
+Il processore, acquisisce i dati nel CIR (ci mette molto tempo per via della bassa velocita del bus di sistema), li elabora e restituisce i risultati, ovvero i dati presenti nei registri che vengono trasferiti nella memoria centrale.
+</span>
+
 Essa comprende diversi step:
-- ...
+- <span class="err">Il valore contenuto nel PC viene trasferito nell'AR</span>
+- <span class="err">La memoria centrale invia un comando READ sul bus controlli -> fornisce il valore del B sul bus indirizzi</span>
+- <span class="err">Il valore ottenuto dalla memoria centrale -> memorizzato in DR -> trasferito in CR</span>
+- <span class="err">Viene incrementato di 1 il valore di PC (il cui risultato è salvato in PC)</span>
+- <span class="err">L'istruzione è pronta in CIR</span>
+  - <span class="err">CU legge e interpreta le istruzioni -> esegue operazioni elementari necessarie</span>
 
 #### Registri
 
