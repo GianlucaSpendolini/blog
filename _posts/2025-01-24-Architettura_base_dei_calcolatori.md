@@ -44,7 +44,7 @@ Oltre alle precedenti, presenta anche un ulteriore componente: il [bus di sistem
 
 ### CPU
 
-La CPU è il componente predisposto all'esecuzione dei ~~comandi~~<span class="err">programmi</class>. Essa coordina i vari componenti del calcolatore, facendo sì che tutto funzioni regolarmente.
+La CPU è il componente predisposto all'esecuzione dei ~~comandi~~<span class="err">programmi</span>. Essa coordina i vari componenti del calcolatore, facendo sì che tutto funzioni regolarmente.
 
 Ha 3 principali componenti:
 - [Algorithm Logic Unit](#alu)
